@@ -28,11 +28,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
-            Aspiring Data Scientist & Machine Learning Enthusiast
+            Java Developer & Full Stack Enthusiast
           </p>
           
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-            Fresh Computer Science Graduate eager to explore ML Algorithms, Statistical Techniques, and Big Data Technologies
+            Fresh Computer Science Graduate specializing in Java, OOP, Data Structures & Algorithms, and MERN Stack Development
           </p>
 
           <div className="flex justify-center space-x-6 mb-12">
@@ -66,12 +66,12 @@ const Hero = () => {
               <div className="text-sm">Graduate</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">5+</div>
-              <div className="text-sm">Technologies Learning</div>
+              <div className="text-2xl font-bold text-white">Java</div>
+              <div className="text-sm">Focus</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">3+</div>
-              <div className="text-sm">Academic Projects</div>
+              <div className="text-2xl font-bold text-white">MERN</div>
+              <div className="text-sm">Learning</div>
             </div>
           </div>
         </div>

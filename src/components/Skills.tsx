@@ -4,47 +4,47 @@ import { Brain, Database, Code, BarChart } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages",
+      title: "Programming Languages",
       icon: Code,
       skills: [
-        { name: "Python", level: 95 },
-        { name: "R", level: 90 },
         { name: "Java", level: 85 },
-        { name: "JavaScript", level: 80 },
-        { name: "SQL", level: 88 }
+        { name: "JavaScript", level: 70 },
+        { name: "Python", level: 60 },
+        { name: "HTML/CSS", level: 75 },
+        { name: "SQL", level: 65 }
       ]
     },
     {
-      title: "Machine Learning",
+      title: "Core Concepts",
       icon: Brain,
       skills: [
-        { name: "Deep Learning", level: 92 },
-        { name: "CNNs & RNNs", level: 90 },
-        { name: "Ensemble Methods", level: 88 },
-        { name: "Statistical Models", level: 85 },
-        { name: "Model Optimization", level: 87 }
+        { name: "Object-Oriented Programming", level: 85 },
+        { name: "Data Structures", level: 80 },
+        { name: "Algorithms", level: 75 },
+        { name: "Problem Solving", level: 80 },
+        { name: "Software Design", level: 70 }
       ]
     },
     {
-      title: "Frameworks & Tools",
+      title: "Web Development",
       icon: Database,
       skills: [
-        { name: "TensorFlow", level: 90 },
-        { name: "PyTorch", level: 85 },
-        { name: "Scikit-learn", level: 95 },
-        { name: "Pandas & NumPy", level: 98 },
-        { name: "Hadoop & Spark", level: 82 }
+        { name: "React.js", level: 65 },
+        { name: "Node.js", level: 60 },
+        { name: "Express.js", level: 55 },
+        { name: "MongoDB", level: 50 },
+        { name: "REST APIs", level: 60 }
       ]
     },
     {
-      title: "Analytics & Platforms",
+      title: "Tools & Technologies",
       icon: BarChart,
       skills: [
-        { name: "Tableau", level: 88 },
-        { name: "Power BI", level: 85 },
-        { name: "Jupyter", level: 95 },
-        { name: "Git & Version Control", level: 90 },
-        { name: "Docker", level: 75 }
+        { name: "Git & GitHub", level: 75 },
+        { name: "VS Code", level: 85 },
+        { name: "IntelliJ IDEA", level: 80 },
+        { name: "MySQL", level: 65 },
+        { name: "Postman", level: 70 }
       ]
     }
   ];
@@ -57,7 +57,7 @@ const Skills = () => {
             Technical <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Skills</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Comprehensive expertise across the data science and machine learning technology stack
+            Building expertise in Java development, problem-solving, and modern web technologies
           </p>
         </div>
 

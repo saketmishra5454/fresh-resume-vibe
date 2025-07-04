@@ -4,25 +4,32 @@ import { Briefcase, Calendar, MapPin, BookOpen } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Computer Science Student - Data Science Track",
-      description: "Currently pursuing B.Tech in Computer Science with specialization in data science fundamentals, learning advanced algorithms, statistical methods, and modern programming practices.",
-      period: "2022 - Present",
-      location: "GLA University",
-      skills: ["Python Programming", "Data Structures", "Algorithms", "Database Management", "Statistics"]
-    },
-    {
-      title: "Academic Projects & Learning",
-      description: "Working on various academic projects involving data analysis, basic machine learning implementations, and software development using modern frameworks and tools.",
+      title: "Java & OOP Specialization",
+      description: "Currently mastering Java programming language with deep focus on Object-Oriented Programming principles, design patterns, and best practices. Building strong foundation through hands-on coding and project development.",
       period: "2023 - Present",
-      location: "University Projects",
-      skills: ["Project Management", "Research Skills", "Problem Solving", "Team Collaboration"]
+      location: "Self-Directed Learning",
+      skills: ["Java Programming", "OOP Concepts", "Design Patterns", "Code Optimization", "Problem Solving"]
     },
     {
-      title: "Self-Learning & Skill Development",
-      description: "Actively learning through online courses, tutorials, and hands-on practice with data science tools and technologies to build a strong foundation for future career opportunities.",
-      period: "2022 - Present",
-      location: "Self-Directed Learning",
-      skills: ["Continuous Learning", "Self-Motivation", "Technology Adaptation", "Research Abilities"]
+      title: "Data Structures & Algorithms Learning",
+      description: "Intensive study and practice of fundamental data structures and algorithms using Java. Solving coding problems, understanding time-space complexity, and implementing various algorithms from scratch.",
+      period: "2023 - Present",
+      location: "Coding Practice",
+      skills: ["Arrays & Strings", "Linked Lists", "Trees & Graphs", "Sorting Algorithms", "Dynamic Programming"]
+    },
+    {
+      title: "MERN Stack Development Journey",
+      description: "Learning modern web development with MongoDB, Express.js, React, and Node.js. Building full-stack applications and understanding both frontend and backend technologies.",
+      period: "2024 - Present",
+      location: "Web Development Learning",
+      skills: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript ES6+"]
+    },
+    {
+      title: "Computer Science Foundation",
+      description: "Completed B.Tech in Computer Science with strong academic foundation. Gained exposure to various technologies including basic Machine Learning and Data Science concepts, though primary focus remains on software development.",
+      period: "2022 - 2024",
+      location: "GLA University",
+      skills: ["Software Engineering", "Database Management", "Computer Networks", "Operating Systems", "Academic Projects"]
     }
   ];
 
@@ -31,10 +38,10 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Academic <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Journey</span>
+            Learning <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Journey</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            My learning path in computer science and data science fundamentals
+            My focused path in Java development, problem-solving, and modern web technologies
           </p>
         </div>
 
