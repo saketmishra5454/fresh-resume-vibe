@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -28,11 +28,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
-            Data Scientist & Machine Learning Engineer
+            Aspiring Data Scientist & Machine Learning Enthusiast
           </p>
           
           <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-            Specializing in Advanced ML Algorithms, Statistical Techniques, and Big Data Technologies
+            Fresh Computer Science Graduate eager to explore ML Algorithms, Statistical Techniques, and Big Data Technologies
           </p>
 
           <div className="flex justify-center space-x-6 mb-12">
@@ -62,16 +62,16 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6 text-gray-400">
             <div className="text-center">
-              <div className="text-2xl font-bold text-white">3+</div>
-              <div className="text-sm">Years Experience</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-white">10+</div>
-              <div className="text-sm">Technologies</div>
+              <div className="text-2xl font-bold text-white">Fresh</div>
+              <div className="text-sm">Graduate</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-white">5+</div>
-              <div className="text-sm">Projects</div>
+              <div className="text-sm">Technologies Learning</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-white">3+</div>
+              <div className="text-sm">Academic Projects</div>
             </div>
           </div>
         </div>

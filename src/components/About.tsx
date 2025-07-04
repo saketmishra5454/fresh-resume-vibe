@@ -1,5 +1,5 @@
 
-import { User, MapPin, Phone, Mail } from "lucide-react";
+import { User, MapPin, Phone, Mail, GraduationCap } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Passionate data scientist with expertise in machine learning, statistical analysis, and big data technologies
+            Fresh Computer Science graduate passionate about data science, machine learning, and emerging technologies
           </p>
         </div>
 
@@ -25,9 +25,9 @@ const About = () => {
               </div>
               
               <p className="text-gray-300 leading-relaxed mb-6">
-                I am a dedicated data scientist and machine learning engineer with extensive experience in 
-                developing advanced algorithms and statistical models. My expertise spans across deep learning, 
-                statistical inference, and big data technologies.
+                I am a fresh Computer Science graduate with a strong foundation in programming and 
+                a keen interest in data science and machine learning. Though new to the professional world, 
+                I'm enthusiastic about learning advanced algorithms, statistical models, and big data technologies.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -49,34 +49,34 @@ const About = () => {
 
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-2xl p-8 border border-white/10">
-              <h3 className="text-2xl font-bold text-white mb-6">Key Strengths</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Learning Focus Areas</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2"></div>
                   <div>
-                    <h4 className="text-white font-semibold">Machine Learning Expertise</h4>
-                    <p className="text-gray-400 text-sm">Advanced algorithms including CNNs, RNNs, and ensemble methods</p>
+                    <h4 className="text-white font-semibold">Machine Learning Fundamentals</h4>
+                    <p className="text-gray-400 text-sm">Learning algorithms like linear regression, decision trees, and neural networks</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mt-2"></div>
                   <div>
                     <h4 className="text-white font-semibold">Statistical Analysis</h4>
-                    <p className="text-gray-400 text-sm">Bayesian inference, hypothesis testing, and advanced statistical methods</p>
+                    <p className="text-gray-400 text-sm">Building foundation in statistics, probability, and data analysis techniques</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-green-400 rounded-full mt-2"></div>
                   <div>
-                    <h4 className="text-white font-semibold">Big Data Technologies</h4>
-                    <p className="text-gray-400 text-sm">Hadoop, Spark, data pipeline design and ETL processes</p>
+                    <h4 className="text-white font-semibold">Programming Skills</h4>
+                    <p className="text-gray-400 text-sm">Developing expertise in Python, R, and data manipulation libraries</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2"></div>
                   <div>
-                    <h4 className="text-white font-semibold">Programming Proficiency</h4>
-                    <p className="text-gray-400 text-sm">Python, R, Java, JavaScript with focus on data manipulation libraries</p>
+                    <h4 className="text-white font-semibold">Academic Excellence</h4>
+                    <p className="text-gray-400 text-sm">Strong academic background with focus on continuous learning</p>
                   </div>
                 </div>
               </div>

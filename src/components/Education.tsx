@@ -8,32 +8,32 @@ const Education = () => {
       institution: "GLA University",
       location: "Mathura, India",
       period: "September 2022 – Present",
-      description: "Specialized in Data Science, Machine Learning, and Advanced Statistical Methods with focus on practical applications in real-world scenarios."
+      description: "Currently pursuing B.Tech in Computer Science with focus on Data Science fundamentals, programming languages, and modern software development practices."
     },
     {
       degree: "Intermediate (P.C.M)",
-      institution: "Anglo Vedic Convent School, Bahyla",
+      institution: "Anglo Vedic Convent School, Bahjoi",
       location: "India", 
       period: "August 2020 – July 2022",
-      description: "Strong foundation in Physics, Chemistry, and Mathematics providing analytical and problem-solving skills essential for data science."
+      description: "Strong foundation in Physics, Chemistry, and Mathematics providing analytical and problem-solving skills essential for computer science and data analysis."
     }
   ];
 
   const certificates = [
     {
-      title: "Advanced Course in Data Science",
-      issuer: "Technical Certification",
-      description: "Comprehensive course covering machine learning algorithms, ensemble methods, and advanced statistical techniques."
+      title: "Introduction to Data Science",
+      issuer: "Online Learning Platform",
+      description: "Basic course covering fundamentals of data science, including data manipulation and basic statistical analysis."
     },
     {
-      title: "Big Data Technologies Certification",
-      issuer: "Technology Platform",
-      description: "Specialized training in Hadoop, Spark, and distributed computing frameworks for large-scale data processing."
+      title: "Programming Fundamentals",
+      issuer: "University Coursework",
+      description: "Core programming concepts in Python and Java, including object-oriented programming and data structures."
     },
     {
-      title: "Statistical Analysis and Programming",
-      issuer: "Professional Development",
-      description: "Advanced statistical methods including Bayesian inference, hypothesis testing, and time series analysis."
+      title: "Database Management Systems",
+      issuer: "Academic Curriculum",
+      description: "Understanding of relational databases, SQL queries, and database design principles."
     }
   ];
 
@@ -42,10 +42,10 @@ const Education = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Education & <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Certifications</span>
+            Education & <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Learning</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Academic background and professional certifications in data science
+            Academic background and continuous learning in computer science and data science
           </p>
         </div>
 
@@ -91,7 +91,7 @@ const Education = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
               <Award className="text-purple-400" size={28} />
-              <span>Certifications</span>
+              <span>Coursework & Learning</span>
             </h3>
 
             <div className="space-y-6">
@@ -113,23 +113,23 @@ const Education = () => {
 
             {/* Skills Summary */}
             <div className="mt-8 bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-              <h4 className="text-lg font-bold text-white mb-4">Technical Proficiencies</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Learning Technologies</h4>
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div>
                   <div className="text-blue-300 font-medium mb-2">Programming</div>
-                  <div className="text-gray-400">Python, R, Java, JavaScript</div>
+                  <div className="text-gray-400">Python, Java, JavaScript</div>
                 </div>
                 <div>
-                  <div className="text-purple-300 font-medium mb-2">Platforms</div>
-                  <div className="text-gray-400">PyCharm, Visual Studio, IntelliJ</div>
+                  <div className="text-purple-300 font-medium mb-2">Tools</div>
+                  <div className="text-gray-400">VS Code, Git, Jupyter</div>
                 </div>
                 <div>
-                  <div className="text-green-300 font-medium mb-2">Soft Skills</div>
-                  <div className="text-gray-400">MySQL, MongoDB</div>
+                  <div className="text-green-300 font-medium mb-2">Database</div>
+                  <div className="text-gray-400">MySQL, Basic MongoDB</div>
                 </div>
                 <div>
-                  <div className="text-yellow-300 font-medium mb-2">Frameworks</div>
-                  <div className="text-gray-400">React, Node.js, Express</div>
+                  <div className="text-yellow-300 font-medium mb-2">Concepts</div>
+                  <div className="text-gray-400">Data Structures, Algorithms</div>
                 </div>
               </div>
             </div>

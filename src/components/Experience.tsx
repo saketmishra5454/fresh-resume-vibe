@@ -1,28 +1,28 @@
 
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { Briefcase, Calendar, MapPin, BookOpen } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: "Advanced Machine Learning and Statistical Techniques",
-      description: "Mastery of complex algorithms and models such as deep learning networks (e.g., CNNs, RNNs) and ensemble methods.",
+      title: "Computer Science Student - Data Science Track",
+      description: "Currently pursuing B.Tech in Computer Science with specialization in data science fundamentals, learning advanced algorithms, statistical methods, and modern programming practices.",
       period: "2022 - Present",
       location: "GLA University",
-      skills: ["Deep Learning", "Neural Networks", "Ensemble Methods", "Statistical Modeling"]
+      skills: ["Python Programming", "Data Structures", "Algorithms", "Database Management", "Statistics"]
     },
     {
-      title: "Data Engineering and Big Data Technologies",
-      description: "Expertise in handling large-scale data using big data technologies like Hadoop and Spark. Skills in designing and managing data pipelines, including ETL processes.",
-      period: "2021 - 2022",
-      location: "Academic Projects",
-      skills: ["Hadoop", "Apache Spark", "ETL Processes", "Data Pipeline Design"]
+      title: "Academic Projects & Learning",
+      description: "Working on various academic projects involving data analysis, basic machine learning implementations, and software development using modern frameworks and tools.",
+      period: "2023 - Present",
+      location: "University Projects",
+      skills: ["Project Management", "Research Skills", "Problem Solving", "Team Collaboration"]
     },
     {
-      title: "Programming and Software Development",
-      description: "Advanced programming skills in Python or R, including the use of libraries for data manipulation, statistical analysis, and machine learning (e.g., Pandas, NumPy, Scikit-learn).",
-      period: "2020 - Present",
-      location: "Continuous Learning",
-      skills: ["Python", "R", "Pandas", "NumPy", "Scikit-learn", "Git"]
+      title: "Self-Learning & Skill Development",
+      description: "Actively learning through online courses, tutorials, and hands-on practice with data science tools and technologies to build a strong foundation for future career opportunities.",
+      period: "2022 - Present",
+      location: "Self-Directed Learning",
+      skills: ["Continuous Learning", "Self-Motivation", "Technology Adaptation", "Research Abilities"]
     }
   ];
 
@@ -31,10 +31,10 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Work <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Experience</span>
+            Academic <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Journey</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Professional journey in data science and machine learning
+            My learning path in computer science and data science fundamentals
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Experience = () => {
               <div key={index} className="relative flex items-start space-x-8">
                 {/* Timeline dot */}
                 <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center border-4 border-slate-900">
-                  <Briefcase className="text-white" size={24} />
+                  <BookOpen className="text-white" size={24} />
                 </div>
 
                 {/* Content */}
